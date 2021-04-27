@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### user guide
+* need to get APP_ID and APP_KEY from https://developer.edamam.com/ after signIn--> dash--> applications -->
+Recipe Search API view options --> find the 'Application ID' and 'Application Keys' and add them into the api ( `https://api.edamam.com/search?q=${Searchresult}&app_id=${Application ID}&app_key=${Application Keys}&from=0&to=3&calories=591-722&health=alcohol-free` in order to fetch receipes infomtion from API.
+).
